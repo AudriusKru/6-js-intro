@@ -39,6 +39,16 @@ console.log (skaiciuSarasas3)
 
 // 4.
 
+const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
+console.log (abc);
+
+const sakinys = ['O', 'kas', 'bus', 'jeigu', 'nebus'];
+console.log (sakinys)
+
+const namas = ['Sis', 'namas', 'yra', 'labai', 'grazus'];
+console.log (namas)
+
+
 
 
 /*
