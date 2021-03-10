@@ -44,4 +44,19 @@ const petrasBacktick = `Mano vardas: ${vardas}.`;
 console.log(petrasBacktick);   
 
 // ``` magic kabute (backtick) treciasis variantas su kuriuo galima aprasinet teksta.
-// jei backtick nori itert varda rasyt reikia ${vardas} grieztai (iterpiama reiksme i nurodyta lauka)
+// jei backtick nori iterpt varda rasyt reikia ${vardas} grieztai (iterpiama reiksme i nurodyta lauka)
+
+// Naujausias pazymys: 2.
+const marks = [10, 5, 8, 7,2];
+const markSentence = `Naujausias pazymys: ${marks[marks.length -1]}.`;
+console.log(markSentence);
+
+
+////
+
+const navHTML2 = `<nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                </nav>`;
+console.log(navHTML2);
