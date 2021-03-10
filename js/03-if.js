@@ -4,6 +4,7 @@ IF STATEMENT:
 logikos sablonai 
 if () {} 
 if () {} else {}
+if () {} else if {}
 
 
 palyginimo operatoriai:
@@ -82,10 +83,33 @@ console.log('----------');
 ///
 
 
-const userLoggedIn = false;
+const userLoggedIn = true;
 
 if (userLoggedIn) {
     console.log('Log out');
 } else {
     console.log('Log in');
+}
+
+/// Kintamuju palyginimas
+console.log('----------');
+///
+
+const pomidoras = 'pomidoras';
+const pomidoroIlgis = pomidoras.length;
+
+console.log(pomidoroIlgis);
+
+///
+console.log('----------');
+///
+
+const akys = 'Zalios';
+
+if (akys === 'Melynos') {
+    console.log('Oj kokie fainulkos!!!');
+} else if ( akys === 'Zalios') {
+    console.log('Sexy');
+} else {
+    console.log('Melagis?');
 }
