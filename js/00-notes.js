@@ -77,7 +77,7 @@ console.log('-----------');
 /*
 // Is mums zinomos 6 raidziu abc(abecele) paskutine yra "f".
 */
-
+/*
 const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
 console.log(abc);
 
@@ -89,3 +89,4 @@ const paskutineRaide = abc[paskutinesRaidesPozicija];
 const abcAtsaskymas = 'Is mums zinomos ' + absIlgis + 'raidziu abc(abecele) paskutine yra "' + paskutineRaide + '".';
 
 console.log(abcAtsaskymas);
+*/
