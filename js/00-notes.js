@@ -63,7 +63,7 @@ console.log('-----------');
  const antrasPazymys = pazymiai[1];
  console.log(antrasPazymys);
  
- const pazymiuSuma = pazymiai[0] + pazymiai[1] + pazymiai[2] + pazymiai[3] + pazymiai[4] + pazymiai[5];
+ const pazymiuSuma = pazymiai[0] + pazymiai[1] + pazzymiai[2] + pazymiai[3] + pazymiai[4] + pazymiai[5];
  
  const pazymiuKiekis = pazymiai.length;
  
@@ -72,3 +72,20 @@ console.log('-----------');
  console.log('Pazymiu kiekis:', pazymiuKiekis);
  console.log('Pazymiu vidurkis:', pazymiuVidurkis);
 */
+
+                  //2021/03/10
+/*
+// Is mums zinomos 6 raidziu abc(abecele) paskutine yra "f".
+*/
+
+const abc = ['a', 'b', 'c', 'd', 'e', 'f'];
+console.log(abc);
+
+
+const absIlgis = abc.length;
+const paskutinesRaidesPozicija = absIlgis - 1;
+const paskutineRaide = abc[paskutinesRaidesPozicija];
+
+const abcAtsaskymas = 'Is mums zinomos ' + absIlgis + 'raidziu abc(abecele) paskutine yra "' + paskutineRaide + '".';
+
+console.log(abcAtsaskymas);
