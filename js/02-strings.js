@@ -24,3 +24,11 @@ console.log(viengubaDviguba);
 // Turiu dviguba (") ir vienguba (') kabutes.
 const dvigubaVienguba = 'Turiu dviguba (") ir vienguba (\') kabutes.';
 console.log(dvigubaVienguba);
+// !!!!!!!!visad deti(\) jeigu tekte yra betkokios kabutes.!!!!!
+
+const navHTML = '<nav>\
+                <a href="#">Link</a>\
+                </nav>';
+                console.log(navHTML);
+
+// ** \ ** - naudojamas kai eilute neuzbaigia teksto kurimo
