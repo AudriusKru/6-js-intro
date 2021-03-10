@@ -29,6 +29,19 @@ console.log(dvigubaVienguba);
 const navHTML = '<nav>\
                 <a href="#">Link</a>\
                 </nav>';
-                console.log(navHTML);
+console.log(navHTML);
 
 // ** \ ** - naudojamas kai eilute neuzbaigia teksto kurimo
+
+//// !!!!!!!!!!!!
+// Mano vardas: Petras.
+
+const vardas = 'Petras';
+const petrasIntro = 'Mano vardas: ' + vardas + '.';
+console.log(petrasIntro);
+
+const petrasBacktick = `Mano vardas: ${vardas}.`;
+console.log(petrasBacktick);   
+
+// ``` magic kabute (backtick) treciasis variantas su kuriuo galima aprasinet teksta.
+// jei backtick nori itert varda rasyt reikia ${vardas} grieztai (iterpiama reiksme i nurodyta lauka)
