@@ -7,9 +7,9 @@ if () {} else {}
 
 
 palyginimo operatoriai:
-- visi; <, >, <=, =>, ==(LYGU), !=(NELYGU), ===(tekstas su skaiciais), !==, ...
-- naudotini; <, >, <=, <=, ===, !==
-- nenaudotini; ==, !=
+- visi; <, >, <=, =>, ==(LYGU), !=(NELYGU), ===(tekstas su skaiciais), !==, !, ...
+- naudotini; <, >, <=, <=, ===, !==, !
+- nenaudotini; ==, != (nes nera tikrinamas reiksmiu tipas)
 */
 
 const a = 7;
@@ -61,4 +61,31 @@ if (g !== h) {
     console.log('TAIP');
 } else {
     console.log('NE');
+}
+
+///
+console.log('----------');
+///
+
+const cookiesAgreed = false;
+
+if (cookiesAgreed === false) {
+    console.log('Ismetame cookies sutikimo bloka...1');
+}
+
+if (!cookiesAgreed) {
+    console.log('Ismetame cookies sutikimo bloka...2');
+}
+
+///
+console.log('----------');
+///
+
+
+const userLoggedIn = false;
+
+if (userLoggedIn) {
+    console.log('Log out');
+} else {
+    console.log('Log in');
 }
