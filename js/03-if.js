@@ -214,3 +214,47 @@ išspausdinti patarimą ką su savimi pasiimti, kai:
 - stovi vilkas / jo nėra
 */
 
+// 1.
+
+const saule = 'lauke nesviecia';
+
+if (saule === 'lauke sviecia') {
+    console.log('Nepapamirsti saules akiniu!');
+}
+if (saule === 'lauke nesviecia') {
+    console.log('Nepamirsti prozektoriaus');
+}
+if (saule !== 'lauke sviecia' &&
+    saule !== 'lauke nesviecia') {
+        console.log('O gal eiti pamiegot?')
+}
+
+// 2.
+
+const lauke = 'lyja';
+
+if (lauke === 'lyja') {
+    console.log('Pasiimti sketi!');
+}
+if (lauke === 'nelyja') {
+    console.log('Pasiimti skrybele');
+}
+if (lauke !== 'lyja' &&
+    lauke !== 'nelyja') {
+        console.log('Ar Tu juokauji?');
+}
+
+// 3.
+
+const miske = 'Stovi vilkas';
+
+if (miske === 'Stovi vilkas') {
+    console.log('Nepamirsti sautuvo');
+}
+if (miske === 'Vilko nera') {
+    console.log('Pasiimti krepsi grybams');
+}
+if (miske !== 'Stovi vilkas' &&
+    miske !== 'Vilko nera') {
+        console.log('Rasiu baravyka!');
+}
