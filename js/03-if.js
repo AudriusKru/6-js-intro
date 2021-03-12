@@ -13,6 +13,8 @@ palyginimo operatoriai:
 - visi; <, >, <=, =>, ==(LYGU), !=(NELYGU), ===(tekstas su skaiciais), !==, !, ...
 - naudotini; <, >, <=, <=, ===, !==, !
 - nenaudotini; ==, != (nes nera tikrinamas reiksmiu tipas)
+
+loginiai operatoriai : &&, ||
 */
 
 const a = 7;
@@ -202,3 +204,13 @@ if (akys !== 'Melynos' &&
     akys !== 'Raudonos') {
     console.log('A turi akis?');
 }
+
+
+/*
+Pratimas if'ams:
+išspausdinti patarimą ką su savimi pasiimti, kai:
+- lauke šviečia / nešviečia saulė
+- lyja / nelyja
+- stovi vilkas / jo nėra
+*/
+
