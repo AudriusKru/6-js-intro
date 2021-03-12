@@ -5,6 +5,8 @@ logikos sablonai
 if () {} 
 if () {} else {}
 if () {} else if {}
+if () {} else if {}... else if {}
+if () {} else if {}... else if {} else
 
 
 palyginimo operatoriai:
@@ -104,12 +106,70 @@ console.log(pomidoroIlgis);
 console.log('----------');
 ///
 
-const akys = 'Zalios';
+const akys = 'Raudonos';
 
 if (akys === 'Melynos') {
     console.log('Oj kokie fainulkos!!!');
 } else if ( akys === 'Zalios') {
     console.log('Sexy');
-} else {
+} else if (akys === 'Rudos') {
     console.log('Melagis?');
+} else if (akys === 'Pilkos') {
+    console.log('niekuo neypatingi...');
+} else if (akys === 'Raudonos') {
+    console.log('nu ir nieko...');
+} else {
+    console.log('A turi akis?')
+}
+
+
+// kitaip!
+
+//pirmas blogas
+/*
+if (akys === 'Melynos') {
+    console.log('Oj kokie fainulkos!!!');
+} else {
+    if (akys === 'Zalios') {
+        console.log('Sexy');
+    } else {
+        if (akys === 'Rudos') {
+            console.log('Melagis?');
+        } else {
+            if (akys === 'Pilkos') {
+                console.log('nieko neypatingi...');
+            } else {
+                (akys === 'Raudonos') {          **** !!! if truksta!!!
+                console.log('nu ir nieko...');
+                } else {
+                    console.log('A turi akis?');
+                }
+            }
+        }
+    }
+}
+*/
+
+// geras
+
+if (akys === 'Melynos') {
+    console.log('Oj kokie fainulkos!!!');
+} else {
+    if (akys === 'Zalios') {
+        console.log('Sexy');
+    } else {
+        if (akys === 'Rudos') {
+            console.log('Melagis?');
+        } else {
+            if (akys === 'Pilkos') {
+                console.log('nieko neipatingi');
+            } else {
+                if (akys === 'Raudonos') {
+                    console.log('nu ir nieko...');
+                } else {
+                    console.log('A turi akis?');
+                }
+            }
+        }
+    }
 }
