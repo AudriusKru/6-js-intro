@@ -106,7 +106,7 @@ console.log(pomidoroIlgis);
 console.log('----------');
 ///
 
-const akys = 'Raudonos';
+const akys = 'Zalios';
 
 if (akys === 'Melynos') {
     console.log('Oj kokie fainulkos!!!');
@@ -172,4 +172,33 @@ if (akys === 'Melynos') {
             }
         }
     }
+}
+
+
+if (akys === 'Melynos') {
+    console.log('Oj kokie fainulkos!!!');
+} 
+
+if (akys === 'Zalios') {
+    console.log('Sexy');
+}
+
+if (akys === 'Rudos') {
+    console.log('Melagis?');
+} 
+
+if (akys === 'Pilkos') {
+    console.log('nieko neipatingi');
+}
+
+if (akys === 'Raudonos') {
+    console.log('Nu ir nieko...');
+}
+
+if (akys !== 'Melynos' &&
+    akys !== 'Zalios' && 
+    akys !== 'Rudos' && 
+    akys !== 'Pilkos' && 
+    akys !== 'Raudonos') {
+    console.log('A turi akis?');
 }
