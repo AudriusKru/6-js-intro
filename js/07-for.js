@@ -56,3 +56,11 @@ console.log(sum, '/', marks.length, '=', average);
 console.log('------');
 
 
+const sakinys = 'labas rytas';
+
+///    console.log(sakinys[0]);
+
+for (let i = 0; i <sakinys.length; i++) {
+    const simbolis = sakinys [i];
+    console.log(simbolis);
+}
