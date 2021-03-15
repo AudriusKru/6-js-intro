@@ -53,4 +53,3 @@ for ( let i = raides.length-1; i >= 0; i-- ) {
     atbulai += raides [i];
 } 
 console.log('2. Raidės kitaip:', atbulai);
-
