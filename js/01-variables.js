@@ -83,3 +83,6 @@ console.log (sakinys_verte);
 const namas_verte = namas[4] + ', ' + namas[3] + ', ' + namas[3] + ', ' + namas[2] + ', ' + namas[1] + ', ' + namas[0];
 console.log (namas_verte);
 
+///       *Kintamuju palyginimas*
+
+// 1.
