@@ -258,3 +258,4 @@ if (miske !== 'Stovi vilkas' &&
     miske !== 'Vilko nera') {
         console.log('Rasiu baravyka!');
 }
+
