@@ -48,11 +48,11 @@ console.log('1.F. Suma yra', suma);
 // pvz.: “abcdef” -> “fedcba”
 
 let raides = 'abcdef';
-let atbulai = "";
+let atbulai = '';
 for ( let i = raides.length-1; i >= 0; i-- ) {
     atbulai += raides [i];
 } 
 console.log('2. Raidės kitaip:', atbulai);
 
-// i = raides.leght-1 (parodo nuo kurios puse pradesi)
+// i = raides.leght-1 (parodo nuo kurios puse pradesi (teksto ilgi))
 // i-- nuo kurio galo pradesi siuo atveju nu atbulo
