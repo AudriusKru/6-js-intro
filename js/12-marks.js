@@ -25,5 +25,5 @@ for (let i = 0; i <= mokykla.length; i++) {
     const name = mokinys[0];
     const marks = mokinys[1];
 
-    pazymiuVidurkis(name,makrs);
+    pazymiuVidurkis(name,marks);
 }
