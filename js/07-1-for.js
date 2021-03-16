@@ -53,3 +53,6 @@ for ( let i = raides.length-1; i >= 0; i-- ) {
     atbulai += raides [i];
 } 
 console.log('2. Raidės kitaip:', atbulai);
+
+// i = raides.leght-1 (parodo nuo kurios puse pradesi)
+// i-- nuo kurio galo pradesi siuo atveju nu atbulo
