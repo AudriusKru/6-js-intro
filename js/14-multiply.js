@@ -6,7 +6,7 @@ function daugyba(a, b) {
         //grazinti klaidos pranesima
     }
     // isnan yra number (skaicius ar skaiciaus tipo)
-    if (isNaN(a) || a === Infinity || a === -Infinity) {
+    if (!isFinite(a)) {
         return `pirmasis parametras turi buti  normalus skaicius ir negali buti ${a}`;
     }
 
@@ -39,10 +39,26 @@ console.log(  daugyba ('trys', 'penki'));
 
 /*
 infinity begalybe 
-NaN yra skaicius (skaiciaus tipas) ne tikras skaicius
+isNAN -tai yra netikras skaicius
+NaN - yra skaicius (skaiciaus tipas) 
 (pavyzdys virsuje)
 typeof 5 ---> 'number'
 typeof dasfd ---> 'string'
 typeof [] ---> 'object'
 typeof true / false ----> 'boolean'
+
+//
+(skaiciaus konvertavimas i teksta)
+'' + a === 'NaN'
+        '' + [5, 8]
+                "5,8"
+
+absoliutus skaicius
+
+Math.abs(a) === infinity
+//
+sutraukimas
+pvz virsuj
+ priekyje butinai -  !  - isFinite(a) ar tai yra baigtinis dalykas, skaicius
+
 */
