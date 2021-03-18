@@ -11,13 +11,25 @@ function bigNum (list) {
  //       return 'ERROR: netinkama reiksme (null)'
 
     // logic
-    let biggest = list[0];
+    let biggest = -Infinity;
 
     for (let i=0; i<list.length; i++) {
         const number = list[i];
+
+        // ar tai normalus skaicius
+
+        if (typeof number !== 'number' || !isFinite(number)) {
+            continue;           /// eina i sekancia ciklo iteracija
+        }
+
+        // ar jis didesnis uz jau zinoma didziausia skaiciu
         if (number > biggest) {
             biggest = number;
         }
+    }
+    // logic validation
+    if (biggest === -Infinity) {
+        return 'ERROR: sarase nerastas neivienas normalus skaicius'
     }
 // jei nori paskutini rast paskutini rasyt number>=biggest
     // result
