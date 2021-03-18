@@ -59,7 +59,7 @@ console.log(digits(37060123456), '->', 11);
 console.log(digits(3.1415), '->', 5);
 console.log(digits(-456), '->', 3);
 console.log(digits(-3.1415), '->', 5);
-console.log(digits(10000000000000000000000000000);
+// console.log(digits(10000000000000000000000000000),
 
 
 console.log(digits(100000000000000000000000000000), '->', 30);
