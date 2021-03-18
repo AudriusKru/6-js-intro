@@ -1,6 +1,6 @@
 function bigNum (list) {
     // input validation
-    if (Array.isArray(list)) {
+    if (!Array.isArray(list)) {
         return 'ERROR: netinkamas tipas, turi buti array (sarasas)'
     }
     if (list === null) {
