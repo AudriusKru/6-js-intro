@@ -15,8 +15,8 @@ intervale nuo 0 iki 4 suma yra 10.
 
 */
 
-const nuo = 0;
-const iki = 10;
+const nuo = 1;
+const iki = 4;
 let suma = 0;
 
 if (nuo <= iki) {

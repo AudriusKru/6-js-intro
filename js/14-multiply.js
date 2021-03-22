@@ -62,3 +62,18 @@ pvz virsuj
  priekyje butinai -  !  - isFinite(a) ar tai yra baigtinis dalykas, skaicius
 
 */
+
+
+if (typeof  a !== 'number') {
+    return 'pirmasis parametras turi buti skaiciaus tipo';
+}
+if (typeof  b !== 'number') {
+    return 'antrasis parametras turi buti skaiciaus tipo';
+}
+const rez = a * b;
+return rez;
+
+console.log(  daugyba (4, 5) );
+
+console.log(  daugyba (44, 5), '->', 20 );  
+console.log(  daugyba (-44, -55), '->', 220  );

@@ -19,12 +19,12 @@ function gooseFilter (birds) {
       priesingu atveju - bidr itraukiame i rez sarasa
     */
 
-      for (let b =0; i <birds.legth; b++) {
+      for (let b =0; i < birds.length; b++) {
         const bird = birds[b];
 
         let yraSarase = false
 
-        for (let g = 0; g <geese.legth; g++) {
+        for (let g = 0; g <geese.length; g++) {
           const goose = geese[g];
           if (goose === bird) {
             yraSarase = true;
@@ -43,7 +43,7 @@ function gooseFilter (birds) {
   };
 
 
-console.log (gooseFilter(
+console.log(gooseFilter(
   ["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]),
   ["Mallard", "Hook Bill", "Crested", "Blue Swedish"]);
 
