@@ -1,11 +1,11 @@
 function pazymiuVidurkis (vardas, pazymiai) {
     let suma = 0;
 
-    for ( let i = 0; i <pazymiai.lenght; i++) {
+    for (let i = 0; i < pazymiai.length; i++) {
         suma +=pazymiai[i];
     }
 
-    const average = suma / pazymiai.lenght;
+    const average = suma / pazymiai.length;
 
     // Vardenis: pazymiu vidurkis yra 6.
     console.log(`${vardas}: pazymiu vidurkis yra ${average}.`);
@@ -26,4 +26,5 @@ for (let i = 0; i <= mokykla.length; i++) {
     const marks = mokinys[1];
 
     pazymiuVidurkis(name,marks);
+    pazymiuVidurkis(mokykla[i][0], mokykla[i[1]]);
 }
