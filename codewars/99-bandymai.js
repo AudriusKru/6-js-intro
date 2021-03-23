@@ -14,3 +14,14 @@ const s = a + b;
 console.log(s);
 }
 sumStr(a, b), s);
+
+
+
+/*
+function abbrevName(name){
+
+    return name[0].toUpperCase() + "." + name[name.indexOf(" ")+1].toUpperCase();
+
+}
+
+*/
