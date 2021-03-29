@@ -1,13 +1,13 @@
 /*
 JS galimi ciklai ir "cikliskos" funkcijos/metodai:
-(JS funkcijos)
+(JS funkcijos) ciklai
 - for
 - for-of
 - for-in
 - while
 - do-while
 
-(metodai)
+(metodai) cikliski metodai
 - foreach
 - map
 - filter
@@ -36,7 +36,7 @@ for (let i = 0; i < list.length; i++) {
 }
 
 console.clear();
-
+/*
 // FOR-IN
 // (const index in list)  pakeista is  (const index in list) 
 
@@ -48,9 +48,9 @@ for (const index in list) {
     console.log(i, item);
 }
 
-
+*/
 console.clear();
-
+/*
 
 // FOR-OF
 // break: nutraukia ciklo darba
@@ -151,7 +151,7 @@ const mapListSquare = mapList.map(n => n*n);
 console.log(mapListSquare);
 
 console.clear();
-
+*/
 /******************/
 // uzdavinys : visi neigiami skaiciai turi buti konvertuoti i nuli, o teigiami palikti tokie kokie yra
 
@@ -206,7 +206,7 @@ console.log(isDidziosios);
 // pvz: jei turim pazymiu sara, tai eina per pazymius ir suskaiciuoja pazymiu suma
 
 const petriukoPazymiai = [10, 2, 8, 6, 4];
-
+/*
 // FOR each pavyzdys kaip alternatyva
 let petriukoPazymiuSuma = 20;
 petriukoPazymiai.forEach(p => petriukoPazymiuSuma += p);
@@ -215,15 +215,69 @@ console.log(petriukosPazymiuSuma);
 
 const reducedPazymiai = petriukoPazymiai.reduce((total, paz) => total + paz, 20); // trumpint t ir p
 console.log(reducedPazymiai);
-
+*/
 /*******************************/
 
 // koks gausis tekstas, jei sujungsime visu zodziu pirmas raides
 
 const dictionary2 = ['labas', 'rytas', 'Lietuva', 'sakau', 'tau'];
 
-const short = dictionary2.reduce((total, word) => total + word[0], '');
+const sort = dictionary2.reduce((total, word) => total + word[0], '');
 
-console.log(shorts);
+console.log(sort);
 
 // total -- pirmas saraso narys 
+
+/*******************/
+
+console.clear();
+
+const sortAbc = ['a', 'c', 'fabrikas', 'fancy', 'bermudai','d']; // tekste esantys is didziosios raides keliauja i pireki, didziosio ir mazosios tai didziosio priekyj
+const sortedAbc = sortAbc.sort();
+console.log(sortedAbc);
+
+
+const sortList = [1, -5, 78, 2, 11, -14, 0, -3];
+console.log(sortList.sort());
+
+console.log('--------');
+
+const sorted = [...sortList].sort((a, b) => a - b);   /// bet pakanka ir taip
+// (a-b) =>  a > arba (-) b ? 1: -1  !!!!!!!!!!   jei -1 : 1 tai apsisuka nuo teigiamo i neigiama 
+//  
+// jei b-a tai atvirksciai jei a < b ---->  +1 is b atemus a gaunam teigiama skaiciu , tai simbolizuoja kad einam is didesnes
+console.log(sorted);
+
+/************************/
+
+console.clear();
+
+function numArray(List) {
+    console.log(List);
+    return 0;
+}
+
+const numArraySum = numArray([5, 9]);
+console.log(numArraySum);
+
+// perziuret video del saldytuvo 
+
+
+/************************/
+
+console.clear();
+const spread1 = [5, 9];
+console.log(spread1);
+
+// const spread2 = [5, 9, 7];
+const spread2 = [...spread1, 7];
+console.log(spread2);
+
+// const spread3 = [7, 5, 9];
+const spread3 = [7, ...spread1];
+console.log(spread3);
+
+/************************/
+
+console.clear();
+
