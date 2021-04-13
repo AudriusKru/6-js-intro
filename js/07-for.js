@@ -31,9 +31,7 @@ console.log('------');
 const abc2 = ['a', 'b', 'c', 'd'];
 
 for ( let i = 0; i < abc2.length; i++ ) {
-    const raides = abc2[i];
-    
-    console.log('abc2');
+    console.log(abc2);
 }
 
 console.log('------');

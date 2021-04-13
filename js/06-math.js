@@ -77,7 +77,7 @@ markIndex3 += 1
 sum3 += marks3[markIndex3];  // 12 + 8
 console.log(sum2);
 
-
+console.clear();
 console.log('----------');
 
 const abc = ['r', 'y', 't', 'a', 's'];
