@@ -277,7 +277,13 @@ console.log(spread2);
 const spread3 = [7, ...spread1];
 console.log(spread3);
 
-/************************/
+/*****************/
 
 console.clear();
 
+const ma = [10, -8, 2, 3.14, -6, 7.5, 8, -2, 11, 55];
+
+const filteredMa = ma.filter(m => m >= -2 && m <= 55 && m % 1 === 0);
+
+console.log(ma);
+console.log(filteredMa);
